@@ -5,10 +5,48 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
+    <div class="text-3xl w-full font-bold">General information</div>
   </div>
 
   <div class="mb-10 text-justify">
+    <div class="flex items-center mb-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: currentColor;transform: ;msFilter:;">
+        <circle cx="12" cy="8" r="4"/>
+        <path d="M20 20c0-4.4-3.6-8-8-8s-8 3.6-8 8"/>
+      </svg>
+      <span class="ml-2">Full Name: Ha Cam Thanh LE</span>
+    </div>
+    <div class="flex items-center mb-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: currentColor;transform: ;msFilter:;">
+        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+      </svg>
+      <span class="ml-2">Email: lecamthanhha@gmail.com</span>
+    </div>
+    <div class="flex items-center mb-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: currentColor;transform: ;msFilter:;">
+        <circle cx="4.983" cy="5.009" r="2.188"/>
+        <path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"/>
+      </svg>
+      <span class="ml-2">LinkedIn: https://www.linkedin.com/in/cam-thanh-ha-le/</span>
+    </div>
+    <div class="flex items-center mb-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: currentColor;transform: ;msFilter:;">
+        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+      </svg>
+      <span class="ml-2">Phone: +33 7 83 69 12 89</span>
+    </div>
+    <div class="flex items-center mb-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: currentColor;transform: ;msFilter:;">
+        <path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/>
+      </svg>
+      <span class="ml-2">Languages: English (professional), French (fluent), Vietnamese (native)</span>
+    </div>
+    <div class="flex items-center mb-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: currentColor;transform: ;msFilter:;">
+        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+      </svg>
+      <span class="ml-2">Current location: Toulouse, France</span>
+    </div>
   </div>
 
   <div class="mb-5">
@@ -17,13 +55,18 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Master of Engineering in Applied Mathematics"
+      subtitle="2020 to 2023 at INSA Toulouse, France"
     />
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Preparatory class"
+      subtitle="2018 to 2020 at ENS Hue, Vietnam"
     />
+    <TimeLineElement
+      title="Bachelor's degree"
+      subtitle="2015 to 2018 at Quoc Hoc Hue High School for Gifted Students, Hue, Vietnam"
+    />
+    
   </div>
 
   <div class="mb-5">
@@ -32,57 +75,107 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="System and AI Engineer"
+      subtitle="Qorvo, Toulouse, France | 2023 to now"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      <li>Developed end-to-end solutions and Proofs of Concept (POCs) using UWB ranging and UWB radar, applying AI/ML and advanced mathematical algorithms, with applications across door locks, Real-time Localization System (RTLS), and automotive systems.</li>
+      <li>Optimized algorithms for low latency, memory efficiency, and real-time performance on STM32 and ARM Cortex-M platforms.</li>
+      <li>Deployed and embedded models and algorithms on constrained hardware, ensuring robustness, energy efficiency, and practical usability.</li>
+      <li>Credited with 5 research patents for innovative algorithms and system-level solutions and authored the algorithm seen as a potential strong differentiator for the company.</li>
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Data Scientist"
+      subtitle="Capgemini Engineering Research And Development - Airbus | 2022-2023"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      Work-study program - Deep Learning for acoustic processing of turbomachinery for future Airbus aircrafts
+      <li>Developed pipeline for custom datasets and analysis to support acoustic prediction workflows</li>
+      <li>Applied the image processing and deep learning algorithms to identify correlations between geometric, flow, thermodynamic... inputs and acoustic attenuation outputs</li>
+      <li>Contributed to reduce the delivery time for acoustic trades through predictive modeling and process optimization</li>
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
+      title="AI Engineer"
       subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      Internship: Machine Learning to assess the Time of Flight plausibility in Ultra Wideband
+      <li>Analyzed Ultra Wideband (UWB) signals and two-way ranging principles to build robust datasets of physical metrics for distance estimation.</li>
+      <li>Developed and evaluated ML/DL models for attack detection and plausibility assessment, studying the RF noise sensitivity.</li>
+      <li>Authored the first patent application</li>
     </TimeLineElement>
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Certifications</div>
+    <div class="text-3xl w-full font-bold">Skills & Competencies</div>
   </div>
 
-  <ul class="list-disc mx-6 mb-10 grid gap-2">
-    <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
-    </li>
-    <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
-    </li>
-  </ul>
+  <div class="mb-10">
+    <!-- AI & Math -->
+    <div class="font-bold mb-3 flex items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+      Artificial Intelligence & Mathematics
+    </div>
+    <div class="flex flex-wrap gap-2 mb-6">
+      <span class="badge badge-primary">Deep Learning</span>
+      <span class="badge badge-primary">Computer Vision</span>
+      <span class="badge badge-primary">Signal Processing</span>
+      <span class="badge badge-primary">Applied Mathematics</span>
+      <span class="badge badge-primary">Optimization Algorithms</span>
+      <span class="badge badge-primary">Image Processing</span>
+      <span class="badge badge-primary">Statistical Modeling</span>
+    </div>
+
+    <!-- Programming & Frameworks -->
+    <div class="font-bold mb-3 flex items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-secondary"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+      Software & Frameworks
+    </div>
+    <div class="flex flex-wrap gap-2 mb-6">
+      <span class="badge badge-secondary">Python</span>
+      <span class="badge badge-secondary">C / C++</span>
+      <span class="badge badge-secondary">PyTorch</span>
+      <span class="badge badge-secondary">TensorFlow</span>
+      <span class="badge badge-secondary">TFLite</span>
+      <span class="badge badge-secondary">ONNX</span>
+      <span class="badge badge-secondary">Scikit-learn</span>
+    </div>
+
+    <!-- Hardware & Embedded -->
+    <div class="font-bold mb-3 flex items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-accent"><rect width="18" height="12" x="3" y="9" rx="2"/><path d="M15 9V5a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v4"/><path d="M8 13h.01"/><path d="M12 13h.01"/><path d="M16 13h.01"/><path d="M8 17h.01"/><path d="M12 17h.01"/><path d="M16 17h.01"/></svg>
+      Embedded Systems & Deployment
+    </div>
+    <div class="flex flex-wrap gap-2 mb-6">
+      <span class="badge badge-accent">STM32</span>
+      <span class="badge badge-accent">ARM Cortex-M</span>
+      <span class="badge badge-accent">Edge AI</span>
+      <span class="badge badge-accent">Quantization</span>
+      <span class="badge badge-accent">Hardware Constraints Optimization</span>
+    </div>
+
+    <!-- Tools & Workflow -->
+    <div class="font-bold mb-3 flex items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v-6M9 20v-10M15 20v-2M12 4v4M18 8v12M6 10v10"/></svg>
+      Tools & Environment
+    </div>
+    <div class="flex flex-wrap gap-2">
+      <span class="badge badge-outline">Git</span>
+      <span class="badge badge-outline">Linux</span>
+      <span class="badge badge-outline">VS Code</span>
+      <span class="badge badge-outline">LaTeX</span>
+      <span class="badge badge-outline">Jupyter</span>
+      <span class="badge badge-outline">MS Office</span>
+    </div>
+  </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Skills</div>
+    <div class="text-3xl w-full font-bold">Personal Qualities</div>
   </div>
 
-  <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-  </ul>
+  <div class="flex flex-wrap gap-2 mb-10">
+    <div class="badge badge-ghost">Customer-Oriented Mindset</div>
+    <div class="badge badge-ghost">Autonomous Learner</div>
+    <div class="badge badge-ghost">Problem Solver</div>
+    <div class="badge badge-ghost">Team Spirit</div>
+    <div class="badge badge-ghost">Work Ethic</div>
+    <div class="badge badge-ghost">Curiosity</div>
+  </div>
 </BaseLayout>
